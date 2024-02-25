@@ -1,0 +1,14 @@
+datasets==2.15.0
+faiss==1.7.4
+Flask==3.0.2
+hanziconv==0.3.2
+jsonlines==4.0.0
+mysql-connector-python==8.3.0
+numpy==1.24.3
+peft==0.7.0
+safetensors==0.4.2
+torch==2.1.1
+tqdm==4.66.1
+transformers==4.35.2
+gunicorn==21.2.0
+wandb==0.16.1
