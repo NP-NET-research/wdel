@@ -129,7 +129,7 @@ else:
 * 系统占用内存约76G，空载时占用显存约18G，推理时占用显存约34G（infer batch size为10），降低函数 `entity_disambiguation` 的batch size参数可以进一步降低显存占用。
 * 在Hansel两个测试集上的准确率如下：
 
-| 方法            | 指标 |      KB      | mentiona | 实体数量 | Hansel FS | Hasnel ZS |
+| 方法            | 指标 |      KB      | mention | 实体数量 | Hansel FS | Hasnel ZS |
 | --------------- | :--: | :----------: | :------: | :------: | :-------: | :-------: |
 | WDEL-cg (Exact) | R@10 |   Wikidata   |   中文   |   93M    |   58.5    |   85.9    |
 | WDEL-cg (Faiss) | R@10 |   Wikidata   |   中文   |   93M    |   55.8    |   80.1    |
