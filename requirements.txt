@@ -8,7 +8,7 @@ numpy==1.24.3
 peft==0.7.0
 safetensors==0.4.2
 torch==2.2.0
-tqdm==4.66.1
+tqdm==4.66.3
 transformers
 gunicorn==22.0.0
 wandb==0.16.1
